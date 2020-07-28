@@ -176,44 +176,4 @@ if __name__ == '__main__':
         print('After action:', action)
         print(puzzle)
         sleep(1)
-
-    # eight = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-    # fifteen = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    # bfsRuntime = []
-    # ucsRuntime = []
-    # astarMispRuntime = []
-    # astarManRuntime = []
-
-    # for i in range(100):
-    #     puzzle = randomPuzzle(eight, 100)
-    #     print(puzzle)
-    #     prob = puzzleProblem(puzzle)
-    #     print('Initialization finished.\n')
-
-    #     start = perf_counter()
-    #     bfs = BFS(prob)
-    #     end = perf_counter()
-    #     bfsRuntime.append(end - start)
-
-    #     # start = perf_counter()
-    #     #ucs = UCS(prob)
-    #     # end = perf_counter()
-    #     # ucsRuntime.append(end - start)
-
-    #     start = perf_counter()
-    #     astarMisp = astarMisplaced(prob)
-    #     end = perf_counter()
-    #     astarMispRuntime.append(end - start)
-
-    #     start = perf_counter()
-    #     astarMan = astarManhattan(prob)
-    #     end = perf_counter()
-    #     astarManRuntime.append(end - start)
-
-    # print(bfsRuntime)
-    # print(astarMispRuntime)
-    # print(astarManRuntime)
-    # with open('runtimeData.py', 'a') as f:
-    #     f.write("bfsRuntime =" + str(bfsRuntime) + '\n')
-    #     f.write("astarMispRuntime =" + str(astarMispRuntime) + '\n')
-    #     f.write("astarManRuntime =" + str(astarManRuntime) + '\n')
+        
