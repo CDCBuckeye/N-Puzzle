@@ -2,7 +2,7 @@
 Applying Breadth First Search (BFS), Uniform Cost Search (UCS), and A* Search to solve n-puzzle.
 Two heuristic functions are used for A* Search, the number of misplaced cells and the sum of manhattan distance between the cells and their goal positions.
 
-# Performance plot:
+# Performance plot
 The plots do not include runtime of UCS since its performance is much worse than the others. Including it in the same plot would make the dots seem to be outliers.
 
 ![Image of 8-puzzle](https://github.com/CDCBuckeye/N-Puzzle/blob/master/8PuzzleRuntimeScatterPlot.png)
